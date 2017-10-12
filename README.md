@@ -2,9 +2,9 @@
 
 With NetBeans currently in the middle of a transition to the 
 Apache Foundation ( [Apache NetBeans](http://incubator.apache.org/projects/netbeans.html) ),
-This custom.json file is a temporary solution for adding code completion and attribute information to the NetBeans IDE.
+This customs.json file is a temporary solution for adding code completion and attribute information to the NetBeans IDE when working with Oracle JET v4.0.0 custom elements.
 
-Work is already underway to provide a more permenent solution, but until that time, you call follow the installation instructions below to
+Work is already underway to provide a more permanent solution, but until that time, you call follow the installation instructions below to
 add JET 4.0.0 custom element support to your individual project today.
 
 ***
