@@ -1,7 +1,7 @@
 # JET 4.0.0 Code Completion for NetBeans 8+
 
 With NetBeans currently in the middle of a transition to the 
-Apache Foundation [Apache NetBeans](http://incubator.apache.org/projects/netbeans.html),
+Apache Foundation ( [Apache NetBeans](http://incubator.apache.org/projects/netbeans.html) ),
 This custom.json file is a temporary solution for adding code completion and attribute information to the NetBeans IDE.
 
 Work is already underway to provide a more permenent solution, but until that time, you call follow the installation instructions below to
