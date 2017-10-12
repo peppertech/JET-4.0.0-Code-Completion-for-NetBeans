@@ -1,0 +1,158 @@
+{
+  "elements": {
+    "oj-film-strip": {},
+    "oj-dialog": {
+      "attributes": {
+        "resize-behavior": {},
+        "modality": {},
+        "style": {},
+        "id": {},
+        "title": {},
+        "drag-affordance": {}
+      }
+    },
+    "oj-conveyor-belt": {},
+    "oj-radioset": {},
+    "oj-checkboxset": {},
+    "oj-diagram": {},
+    "oj-chart": {},
+    "oj-input-password": {},
+    "oj-thematic-map": {},
+    "oj-select-one": {
+      "attributes": {
+        "render-mode": {},
+        "options-keys": {},
+        "described-by": {
+          "description": "Accessiblity feature: ID of the element that describes this component.\nThis is usually an oj-label element",
+          "type": "string"
+        },
+        "required": {},
+        "help": {},
+        "messages-custom": {},
+        "minimum-results-for-search": {},
+        "picker-attributes": {},
+        "translations": {},
+        "display-options": {},
+        "options": {},
+        "disabled": {
+          "type": "boolean"
+        },
+        "placeholder": {},
+        "option-renderer": {},
+        "value": {}
+      }
+    },
+    "oj-option": {
+      "context": [
+        "oj-buttonset-one",
+        "oj-buttonset-many",
+        "oj-checkboxset",
+        "oj-combobox-one",
+        "oj-combobox-many",
+        "oj-menu",
+        "oj-radioset",
+        "oj-select-one",
+        "oj-select-many"
+      ],
+      "attributes": {
+        "disabled": {
+          "type": "boolean"
+        },
+        "value": {
+          "type": ""
+        }
+      }
+    },
+    "oj-table": {
+      "attributes": {
+        "data": {},
+        "columns": {},
+        "row-renderer": {},
+        "selectionMode": {}
+      }
+    },
+    "oj-buttonset-one": {},
+    "oj-color-palette": {},
+    "oj-masonry-layout": {},
+    "oj-optgroup": {},
+    "oj-switcher": {},
+    "oj-avatar": {},
+    "oj-indexer": {},
+    "oj-n-box": {},
+    "oj-timeline": {},
+    "oj-spark-chart": {},
+    "oj-data-grid": {},
+    "oj-popup": {},
+    "oj-select-many": {},
+    "oj-button": {
+      "attributes": {
+        "on-click": {},
+        "id": {}
+      }
+    },
+    "oj-time-axis": {},
+    "oj-input-date-time": {},
+    "oj-file-picker": {},
+    "oj-led-gauge": {},
+    "oj-buttonset-many": {},
+    "oj-progress-list": {},
+    "oj-date-picker": {},
+    "oj-progress": {},
+    "oj-collapsible": {},
+    "oj-picto-chart": {},
+    "oj-paging-control": {},
+    "oj-input-number": {
+      "attributes": {
+        "value": {}
+      }
+    },
+    "oj-switch": {},
+    "oj-text-area": {},
+    "oj-color-spectrum": {},
+    "oj-menu-button": {},
+    "oj-status-meter-gauge": {},
+    "oj-toolbar": {},
+    "oj-tree-view": {},
+    "oj-sunburst": {},
+    "oj-train": {},
+    "oj-row-expander": {},
+    "oj-treemap": {},
+    "oj-slider": {},
+    "oj-legend": {},
+    "oj-date-time-picker": {},
+    "oj-combobox-many": {},
+    "oj-tag-cloud": {},
+    "oj-rating-gauge": {},
+    "oj-accordion": {},
+    "oj-input-time": {},
+    "oj-label": {
+      "attributes": {
+        "for": {},
+        "class": {}
+      }
+    },
+    "oj-list-view": {},
+    "oj-defer": {},
+    "oj-input-date": {},
+    "oj-menu": {},
+    "oj-gantt": {},
+    "oj-input-text": {
+      "attributes": {
+        "maxlength": {},
+        "id": {},
+        "placeholder": {},
+        "value": {}
+      }
+    },
+    "attributes": {},
+    "oj-combobox-one": {},
+    "oj-navigation-list": {},
+    "oj-tab-bar": {}
+  },
+  "attributes": {
+    "slot": {
+      "context": "div"
+    },
+    "id": {}
+  }
+}
