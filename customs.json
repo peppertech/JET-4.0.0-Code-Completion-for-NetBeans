@@ -15,7 +15,145 @@
     "oj-radioset": {},
     "oj-checkboxset": {},
     "oj-diagram": {},
-    "oj-chart": {},
+    "oj-chart": {
+      "attributes": {
+        "animation-on-data-change": {
+          "type": "string"
+        },
+        "animation-on-display": {
+          "type": "string"
+        },
+        "coordinate-system": {
+          "type": "string"
+        },
+        "data-cursor": {
+          "type": "string"
+        },
+        "data-cursor-behavior": {
+          "type": "string"
+        },
+        "data-cursor-position": {
+          "type":"object"
+        },
+        "data-label": {
+          "type": "function"
+        },
+        "dnd": {
+          "type": "object"
+        },
+        "drag-mode": {
+          "type": "string"
+        },
+        "drilling": {
+          "type": "string"
+        },
+        "groups": {
+          "type": "array"
+        },
+        "hidden-categories": {
+          "type": "array"
+        },
+        "hide-and-show-behavior": {
+          "type": "string"
+        },
+        "highlight-match": {
+          "type": "string"
+        },
+        "highlighted-categories": {
+          "type": "array"
+        },
+        "hover-behavior": {
+          "type": "string"
+        },
+        "initial-zooming": {
+          "type": "string"
+        },
+        "legend": {
+          "type": "object"
+        },
+        "orientation": {
+          "type": "string"
+        },
+        "other-threshold": {
+          "type": "number"
+        },
+        "overview": {
+          "type": "object"
+        },
+        "pie-center": {
+          "type": "object"
+        },
+        "plot-area": {
+          "type": "object"
+        },
+        "polar-grid-shape": {
+          "type": "string"
+        },
+        "selection": {
+          "type": "array"
+        },
+        "selection-mode": {
+          "type": "string"
+        },
+        "series": {
+          "type": "array"
+        },
+        "sorting": {
+          "type": "string"
+        },
+        "split-dual-y": {
+          "type": "string"
+        },
+        "splitter-position": {
+          "type": "number"
+        },
+        "stack": {
+          "type": "string"
+        },
+        "stack-label": {
+          "type": "string"
+        },
+        "style-defaults": {
+          "type": "object"
+        },
+        "time-axis-type": {
+          "type": "string"
+        },
+        "tooltip": {
+          "type": "object"
+        },
+        "touch-response": {
+          "type": "string"
+        },
+        "track-resize": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "type": {
+          "type": "string"
+        },
+        "value-formats": {
+          "type": "object"
+        },
+        "x-axis": {
+          "type": "object"
+        },
+        "y2-axis": {
+          "type": "object"
+        },
+        "y-axis": {
+          "type": "object"
+        },
+        "zoom-and-scroll": {
+          "type": "string"
+        },
+        "zoom-direction": {
+          "type": "string"
+        }
+      }
+    },
     "oj-input-password": {},
     "oj-thematic-map": {},
     "oj-select-one": {
@@ -71,12 +209,45 @@
         "selectionMode": {}
       }
     },
-    "oj-buttonset-one": {},
+    "oj-buttonset-one": {     
+      "attributes": {
+        "chroming": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "focus-management": {
+          "type": "string"
+        },
+        "value": {
+          "type": "*"
+        }
+      }
+    },
     "oj-color-palette": {},
     "oj-masonry-layout": {},
     "oj-optgroup": {},
     "oj-switcher": {},
-    "oj-avatar": {},
+    "oj-avatar": {      
+      "attributes": {
+        "initials": {
+          "type": "string"
+        },
+        "size": {
+          "type": "string"
+        },
+        "src": {
+          "type": "string"
+        }
+      }
+    },
     "oj-indexer": {},
     "oj-n-box": {},
     "oj-timeline": {},
@@ -86,15 +257,52 @@
     "oj-select-many": {},
     "oj-button": {
       "attributes": {
-        "on-click": {},
-        "id": {}
+        "chroming": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "on-click": {
+          "type": "function"
+        },
+        "id": {
+          "type": "string"
+        }
       }
     },
     "oj-time-axis": {},
     "oj-input-date-time": {},
     "oj-file-picker": {},
     "oj-led-gauge": {},
-    "oj-buttonset-many": {},
+    "oj-buttonset-many": {     
+      "attributes": {
+        "chroming": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "focus-management": {
+          "type": "string"
+        },
+        "value": {
+          "type": "*"
+        }
+      }
+    },
     "oj-progress-list": {},
     "oj-date-picker": {},
     "oj-progress": {},
@@ -106,12 +314,33 @@
         "value": {}
       }
     },
-    "oj-switch": {},
+    "oj-switch": {
+      "attributes": {
+        "value": {
+          "type": "boolean"
+        }
+      }
+    },
     "oj-text-area": {},
     "oj-color-spectrum": {},
     "oj-menu-button": {},
-    "oj-status-meter-gauge": {},
-    "oj-toolbar": {},
+    "oj-status-meter-gauge": {
+      "attributes": {
+        "thresholds": {},
+        "min": {},
+        "readonly": {},
+        "max": {},
+        "step": {},
+        "value": {}
+      }
+    },
+    "oj-toolbar": {
+      "attributes": {
+        "aria-label": {
+          "type": "string"
+        }
+      }
+    },
     "oj-tree-view": {},
     "oj-sunburst": {},
     "oj-train": {},
@@ -127,6 +356,10 @@
     "oj-input-time": {},
     "oj-label": {
       "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        },
         "for": {},
         "class": {}
       }
@@ -153,6 +386,8 @@
     "slot": {
       "context": "div"
     },
-    "id": {}
+    "id": {
+      "type": "string"
+    }
   }
 }
