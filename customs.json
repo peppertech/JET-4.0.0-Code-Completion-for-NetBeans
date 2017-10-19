@@ -1,20 +1,233 @@
 {
   "elements": {
-    "oj-film-strip": {},
-    "oj-dialog": {
+    "oj-film-strip": {
       "attributes": {
-        "resize-behavior": {},
-        "modality": {},
-        "style": {},
-        "id": {},
-        "title": {},
-        "drag-affordance": {}
+        "arrow-placement": {
+          "type": "string"
+        },
+        "arrow-visibility": {
+          "type": "string"
+        },
+        "current-item": {
+          "type": "object"
+        },
+        "max-items-per-page": {
+          "type": "number"
+        },
+        "orientation": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        }
       }
     },
-    "oj-conveyor-belt": {},
-    "oj-radioset": {},
-    "oj-checkboxset": {},
-    "oj-diagram": {},
+    "oj-dialog": {
+      "attributes": {
+        "resize-behavior": {
+          "type": "string"
+        },
+        "modality": {
+          "type": "string"
+        },
+        "style": {
+          "type": "object"
+        },
+        "title": {
+          "type": "string"
+        },
+        "drag-affordance": {
+          "type": "string"
+        },
+        "cancel-behavior": {
+          "type": "string"
+        },
+        "initial-visibility": {
+          "type": "string"
+        },
+        "position": {
+          "type": "object"
+        },
+        "role": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        }
+      }
+    },
+    "oj-conveyor-belt": {
+      "attributes": {
+        "content-parent": {
+          "type": "string"
+        },
+        "orientation": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "objects"
+        }
+      }
+    },
+    "oj-radioset": {
+      "attributes": {
+        "described-by": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display-options": {
+          "type": "object"
+        },
+        "help": {
+          "type": "object"
+        },
+        "labelled-by": {
+          "type": "string"
+        },
+        "messages-custom": {
+          "type": "array"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "value": {
+          "type": "*"
+        }
+      }
+    },
+    "oj-checkboxset": {
+      "attributes": {
+        "described-by": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display-options": {
+          "type": "object"
+        },
+        "help": {
+          "type": "object"
+        },
+        "labelled-by": {
+          "type": "string"
+        },
+        "messages-custom": {
+          "type": "array"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "value": {
+          "type": "*"
+        }
+      }
+    },
+    "oj-diagram": {
+      "attributes": {
+        "animation-on-data-change": {
+          "type": "string"
+        },
+        "animation-on-display": {
+          "type": "string"
+        },
+        "data": {
+          "type": "object"
+        },
+        "dnd": {
+          "type": "object"
+        },
+        "focus-renderer": {
+          "type": "function"
+        },
+        "hidden-categories": {
+          "type": "array"
+        },
+        "highlight-match": {
+          "type": "string"
+        },
+        "highlighted-categories": {
+          "type": "array"
+        },
+        "hover-behavior": {
+          "type": "string"
+        },
+        "hover-renderer": {
+          "type": "function"
+        },
+        "layout": {
+          "type": "function"
+        },
+        "link-highlight-mode": {
+          "type": "string"
+        },
+        "link-properties": {
+          "type": "function"
+        },
+        "max-zoom": {
+          "type": "number"
+        },
+        "min-zoom": {
+          "type": "number"
+        },
+        "node-highlight-mode": {
+          "type": "string"
+        },
+        "node-properties": {
+          "type": "function"
+        },
+        "pan-direction": {
+          "type": "string"
+        },
+        "panning": {
+          "type": "string"
+        },
+        "promoted-link-behavior": {
+          "type": "string"
+        },
+        "renderer": {
+          "type": "function"
+        },
+        "selection": {
+          "type": "array"
+        },
+        "selection-mode": {
+          "type": "string"
+        },
+        "selection-renderer": {
+          "type": "function"
+        },
+        "style-defaults": {
+          "type": "object"
+        },
+        "tooltip": {
+          "type": "object"
+        },
+        "touch-response": {
+          "type": "string"
+        },
+        "track-resize": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "zoom-renderer": {
+          "type": "function"
+        },
+        "zooming": {
+          "type": "string"
+        }
+      }
+    },
     "oj-chart": {
       "attributes": {
         "animation-on-data-change": {
@@ -33,7 +246,7 @@
           "type": "string"
         },
         "data-cursor-position": {
-          "type":"object"
+          "type": "object"
         },
         "data-label": {
           "type": "function"
@@ -154,7 +367,58 @@
         }
       }
     },
-    "oj-input-password": {},
+    "oj-input-password": {
+      "attributes": {
+        "autocomplete": {
+          "type": "string"
+        },
+        "autofocus": {
+          "type": "boolean"
+        },
+        "described-by": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display-options": {
+          "type": "object"
+        },
+        "help": {
+          "type": "object"
+        },
+        "inputmode": {
+          "type": "string"
+        },
+        "messages-custom": {
+          "type": "array"
+        },
+        "name": {
+          "type": "string"
+        },
+        "placeholder": {
+          "type": "string"
+        },
+        "raw-value": {
+          "type": "string"
+        },
+        "readonly": {
+          "type": "boolean"
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "validators": {
+          "type": "array"
+        },
+        "value": {
+          "type": "object"
+        }
+      }
+    },
     "oj-thematic-map": {},
     "oj-select-one": {
       "attributes": {
