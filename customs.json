@@ -419,29 +419,148 @@
         }
       }
     },
-    "oj-thematic-map": {},
+    "oj-thematic-map": {
+      "attributes": {
+        "animation-duration": {
+          "type": "number"
+        },
+        "animation-on-display": {
+          "type": "string"
+        },
+        "areas": {
+          "type": "array"
+        },
+        "focus-renderer": {
+          "type": "function"
+        },
+        "hidden-categories": {
+          "type": "array"
+        },
+        "highlight-match": {
+          "type": "string"
+        },
+        "highlighted-categories": {
+          "type": "array"
+        },
+        "hover-behavior": {
+          "type": "string"
+        },
+        "hover-renderer": {
+          "type": "function"
+        },
+        "initial-zooming": {
+          "type": "string"
+        },
+        "isolated-item": {
+          "type": "string"
+        },
+        "label-display": {
+          "type": "string"
+        },
+        "label-type": {
+          "type": "string"
+        },
+        "links": {
+          "type": "array"
+        },
+        "map-provider": {
+          "type": "object"
+        },
+        "marker-zoom-behavior": {
+          "type": "string"
+        },
+        "markers": {
+          "type": "array"
+        },
+        "max-zoom": {
+          "type": "number"
+        },
+        "panning": {
+          "type": "string"
+        },
+        "renderer": {
+          "type": "function"
+        },
+        "selection": {
+          "type": "array"
+        },
+        "selection-mode": {
+          "type": "string"
+        },
+        "selection-renderer": {
+          "type": "function"
+        },
+        "style-defaults": {
+          "type": "object"
+        },
+        "tooltip": {
+          "type": "object"
+        },
+        "tooltip-display": {
+          "type": "string"
+        },
+        "touch-response": {
+          "type": "string"
+        },
+        "track-resize": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "zooming": {
+          "type": "string"
+        }
+      }
+    },
     "oj-select-one": {
       "attributes": {
-        "render-mode": {},
-        "options-keys": {},
+        "render-mode": {
+          "type": "string"
+        },
+        "options-keys": {
+          "type": "string"
+        },
         "described-by": {
           "description": "Accessiblity feature: ID of the element that describes this component.\nThis is usually an oj-label element",
           "type": "string"
         },
-        "required": {},
-        "help": {},
-        "messages-custom": {},
-        "minimum-results-for-search": {},
-        "picker-attributes": {},
-        "translations": {},
-        "display-options": {},
-        "options": {},
+        "required": {
+          "type": "boolean"
+        },
+        "help": {
+          "type": "object"
+        },
+        "messages-custom": {
+          "type": "array"
+        },
+        "minimum-results-for-search": {
+          "type": "number"
+        },
+        "picker-attributes": {
+          "type": "object"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "display-options": {
+          "type": "object"
+        },
+        "options": {
+          "type": "array"
+        },
         "disabled": {
           "type": "boolean"
         },
-        "placeholder": {},
-        "option-renderer": {},
-        "value": {}
+        "placeholder": {
+          "type": "string"
+        },
+        "option-renderer": {
+          "type": "function"
+        },
+        "value": {
+          "type": "*"
+        }
       }
     },
     "oj-option": {
@@ -461,7 +580,7 @@
           "type": "boolean"
         },
         "value": {
-          "type": ""
+          "type": "*"
         }
       }
     },
