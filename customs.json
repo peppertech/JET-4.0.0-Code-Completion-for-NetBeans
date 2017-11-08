@@ -419,29 +419,148 @@
         }
       }
     },
-    "oj-thematic-map": {},
+    "oj-thematic-map": {
+      "attributes": {
+        "animation-duration": {
+          "type": "number"
+        },
+        "animation-on-display": {
+          "type": "string"
+        },
+        "areas": {
+          "type": "array"
+        },
+        "focus-renderer": {
+          "type": "function"
+        },
+        "hidden-categories": {
+          "type": "array"
+        },
+        "highlight-match": {
+          "type": "string"
+        },
+        "highlighted-categories": {
+          "type": "array"
+        },
+        "hover-behavior": {
+          "type": "string"
+        },
+        "hover-renderer": {
+          "type": "function"
+        },
+        "initial-zooming": {
+          "type": "string"
+        },
+        "isolated-item": {
+          "type": "string"
+        },
+        "label-display": {
+          "type": "string"
+        },
+        "label-type": {
+          "type": "string"
+        },
+        "links": {
+          "type": "array"
+        },
+        "map-provider": {
+          "type": "object"
+        },
+        "marker-zoom-behavior": {
+          "type": "string"
+        },
+        "markers": {
+          "type": "array"
+        },
+        "max-zoom": {
+          "type": "number"
+        },
+        "panning": {
+          "type": "string"
+        },
+        "renderer": {
+          "type": "function"
+        },
+        "selection": {
+          "type": "array"
+        },
+        "selection-mode": {
+          "type": "string"
+        },
+        "selection-renderer": {
+          "type": "function"
+        },
+        "style-defaults": {
+          "type": "object"
+        },
+        "tooltip": {
+          "type": "object"
+        },
+        "tooltip-display": {
+          "type": "string"
+        },
+        "touch-response": {
+          "type": "string"
+        },
+        "track-resize": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "zooming": {
+          "type": "string"
+        }
+      }
+    },
     "oj-select-one": {
       "attributes": {
-        "render-mode": {},
-        "options-keys": {},
+        "render-mode": {
+          "type": "string"
+        },
+        "options-keys": {
+          "type": "string"
+        },
         "described-by": {
           "description": "Accessiblity feature: ID of the element that describes this component.\nThis is usually an oj-label element",
           "type": "string"
         },
-        "required": {},
-        "help": {},
-        "messages-custom": {},
-        "minimum-results-for-search": {},
-        "picker-attributes": {},
-        "translations": {},
-        "display-options": {},
-        "options": {},
+        "required": {
+          "type": "boolean"
+        },
+        "help": {
+          "type": "object"
+        },
+        "messages-custom": {
+          "type": "array"
+        },
+        "minimum-results-for-search": {
+          "type": "number"
+        },
+        "picker-attributes": {
+          "type": "object"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "display-options": {
+          "type": "object"
+        },
+        "options": {
+          "type": "array"
+        },
         "disabled": {
           "type": "boolean"
         },
-        "placeholder": {},
-        "option-renderer": {},
-        "value": {}
+        "placeholder": {
+          "type": "string"
+        },
+        "option-renderer": {
+          "type": "function"
+        },
+        "value": {
+          "type": "*"
+        }
       }
     },
     "oj-option": {
@@ -461,171 +580,240 @@
           "type": "boolean"
         },
         "value": {
-          "type": ""
+          "type": "*"
         }
       }
     },
     "oj-table": {
       "attributes": {
-        "data": {},
-        "columns": {},
-        "row-renderer": {},
-        "selectionMode": {}
-      }
-    },
-    "oj-buttonset-one": {     
-      "attributes": {
-        "chroming": {
-          "type": "string"
+        "accessibility": {
+          "type": "object"
         },
-        "disabled": {
-          "type": "boolean"
+        "columns": {
+          "type": "array"
+        },
+        "columns-default": {
+          "type": "object"
+        },
+        "current-row": {
+          "type": "object"
+        },
+        "data": {
+          "type": "oj.TableDataSource"
         },
         "display": {
           "type": "string"
         },
-        "translations": {
+        "dnd": {
           "type": "object"
         },
-        "focus-management": {
+        "edit-mode": {
           "type": "string"
         },
-        "value": {
-          "type": "*"
-        }
-      }
-    },
-    "oj-color-palette": {},
-    "oj-masonry-layout": {},
-    "oj-optgroup": {},
-    "oj-switcher": {},
-    "oj-avatar": {      
-      "attributes": {
-        "initials": {
+        "horizontal-grid-visible": {
           "type": "string"
         },
-        "size": {
+        "row-renderer": {
           "type": "string"
         },
-        "src": {
-          "type": "string"
-        }
-      }
-    },
-    "oj-indexer": {},
-    "oj-n-box": {},
-    "oj-timeline": {},
-    "oj-spark-chart": {},
-    "oj-data-grid": {},
-    "oj-popup": {},
-    "oj-select-many": {},
-    "oj-button": {
-      "attributes": {
-        "chroming": {
+        "scroll-policy": {
           "type": "string"
         },
-        "disabled": {
-          "type": "boolean"
+        "scroll-policy-options": {
+          "type": "string"
         },
-        "display": {
+        "selection": {
+          "type": "string"
+        },
+        "selection-mode": {
           "type": "string"
         },
         "translations": {
-          "type": "object"
+          "type": "string"
         },
-        "on-click": {
-          "type": "function"
-        },
-        "id": {
+        "vertical-grid-visible": {
           "type": "string"
         }
-      }
-    },
-    "oj-time-axis": {},
-    "oj-input-date-time": {},
-    "oj-file-picker": {},
-    "oj-led-gauge": {},
-    "oj-buttonset-many": {     
-      "attributes": {
-        "chroming": {
-          "type": "string"
-        },
-        "disabled": {
-          "type": "boolean"
-        },
-        "display": {
-          "type": "string"
-        },
-        "translations": {
-          "type": "object"
-        },
-        "focus-management": {
-          "type": "string"
-        },
-        "value": {
-          "type": "*"
+      },
+      "oj-buttonset-one": {     
+        "attributes": {
+          "chroming": {
+            "type": "string"
+          },
+          "disabled": {
+            "type": "boolean"
+          },
+          "display": {
+            "type": "string"
+          },
+          "translations": {
+            "type": "object"
+          },
+          "focus-management": {
+            "type": "string"
+          },
+          "value": {
+            "type": "*"
+          }
         }
-      }
-    },
-    "oj-progress-list": {},
-    "oj-date-picker": {},
-    "oj-progress": {},
-    "oj-collapsible": {},
-    "oj-picto-chart": {},
-    "oj-paging-control": {},
-    "oj-input-number": {
-      "attributes": {
-        "value": {}
-      }
-    },
-    "oj-switch": {
-      "attributes": {
-        "value": {
-          "type": "boolean"
+      },
+      "oj-color-palette": {},
+      "oj-masonry-layout": {},
+      "oj-optgroup": {},
+      "oj-switcher": {},
+      "oj-avatar": {      
+        "attributes": {
+          "initials": {
+            "type": "string"
+          },
+          "size": {
+            "type": "string"
+          },
+          "src": {
+            "type": "string"
+          }
         }
-      }
-    },
-    "oj-text-area": {},
-    "oj-color-spectrum": {},
-    "oj-menu-button": {},
-    "oj-status-meter-gauge": {
-      "attributes": {
-        "thresholds": {},
-        "min": {},
-        "readonly": {},
-        "max": {},
-        "step": {},
-        "value": {}
-      }
-    },
-    "oj-toolbar": {
-      "attributes": {
-        "aria-label": {
-          "type": "string"
+      },
+      "oj-indexer": {},
+      "oj-n-box": {},
+      "oj-timeline": {},
+      "oj-spark-chart": {},
+      "oj-data-grid": {},
+      "oj-popup": {},
+      "oj-select-many": {},
+      "oj-button": {
+        "attributes": {
+          "chroming": {
+            "type": "string"
+          },
+          "disabled": {
+            "type": "boolean"
+          },
+          "display": {
+            "type": "string"
+          },
+          "translations": {
+            "type": "object"
+          },
+          "on-click": {
+            "type": "function"
+          },
+          "id": {
+            "type": "string"
+          }
         }
-      }
+      },
+      "oj-time-axis": {},
+      "oj-input-date-time": {},
+      "oj-file-picker": {},
+      "oj-led-gauge": {},
+      "oj-buttonset-many": {     
+        "attributes": {
+          "chroming": {
+            "type": "string"
+          },
+          "disabled": {
+            "type": "boolean"
+          },
+          "display": {
+            "type": "string"
+          },
+          "translations": {
+            "type": "object"
+          },
+          "focus-management": {
+            "type": "string"
+          },
+          "value": {
+            "type": "*"
+          }
+        }
+      },
+      "oj-progress-list": {},
+      "oj-date-picker": {},
+      "oj-progress": {},
+      "oj-collapsible": {},
+      "oj-picto-chart": {},
+      "oj-paging-control": {},
+      "oj-input-number": {
+        "attributes": {
+          "value": {}
+        }
+      },
+      "oj-switch": {
+        "attributes": {
+          "value": {
+            "type": "boolean"
+          }
+        }
+      },
+      "oj-text-area": {},
+      "oj-color-spectrum": {},
+      "oj-menu-button": {},
+      "oj-status-meter-gauge": {
+        "attributes": {
+          "thresholds": {},
+          "min": {},
+          "readonly": {},
+          "max": {},
+          "step": {},
+          "value": {}
+        }
+      },
+      "oj-toolbar": {
+        "attributes": {
+          "aria-label": {
+            "type": "string"
+          }
+        }
+      },
+      "oj-tree-view": {},
+      "oj-sunburst": {},
+      "oj-train": {},
+      "oj-row-expander": {},
+      "oj-treemap": {},
+      "oj-slider": {},
+      "oj-legend": {},
+      "oj-date-time-picker": {},
+      "oj-combobox-many": {},
+      "oj-tag-cloud": {},
+      "oj-rating-gauge": {},
+      "oj-accordion": {},
+      "oj-input-time": {},
+      "oj-label": {
+        "attributes": {
+          "id": {
+            "type": "string",
+            "required": true
+          },
+          "for": {},
+          "class": {}
+        }
+      },
+      "oj-list-view": {},
+      "oj-defer": {},
+      "oj-input-date": {},
+      "oj-menu": {},
+      "oj-gantt": {},
+      "oj-input-text": {
+        "attributes": {
+          "maxlength": {},
+          "id": {},
+          "placeholder": {},
+          "value": {}
+        }
+      },
+      "attributes": {},
+      "oj-combobox-one": {},
+      "oj-navigation-list": {},
+      "oj-tab-bar": {}
     },
-    "oj-tree-view": {},
-    "oj-sunburst": {},
-    "oj-train": {},
-    "oj-row-expander": {},
-    "oj-treemap": {},
-    "oj-slider": {},
-    "oj-legend": {},
-    "oj-date-time-picker": {},
-    "oj-combobox-many": {},
-    "oj-tag-cloud": {},
-    "oj-rating-gauge": {},
-    "oj-accordion": {},
-    "oj-input-time": {},
-    "oj-label": {
-      "attributes": {
-        "id": {
-          "type": "string",
-          "required": true
-        },
-        "for": {},
-        "class": {}
+    "attributes": {
+      "slot": {
+        "context": "div"
+      },
+      "id": {
+        "type": "string"
       }
     },
     "oj-list-view": {},
@@ -652,5 +840,4 @@
     "id": {
       "type": "string"
     }
-  }
 }
