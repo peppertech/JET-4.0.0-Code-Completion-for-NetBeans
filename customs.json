@@ -634,186 +634,161 @@
         "vertical-grid-visible": {
           "type": "string"
         }
-      },
-      "oj-buttonset-one": {     
-        "attributes": {
-          "chroming": {
-            "type": "string"
-          },
-          "disabled": {
-            "type": "boolean"
-          },
-          "display": {
-            "type": "string"
-          },
-          "translations": {
-            "type": "object"
-          },
-          "focus-management": {
-            "type": "string"
-          },
-          "value": {
-            "type": "*"
-          }
-        }
-      },
-      "oj-color-palette": {},
-      "oj-masonry-layout": {},
-      "oj-optgroup": {},
-      "oj-switcher": {},
-      "oj-avatar": {      
-        "attributes": {
-          "initials": {
-            "type": "string"
-          },
-          "size": {
-            "type": "string"
-          },
-          "src": {
-            "type": "string"
-          }
-        }
-      },
-      "oj-indexer": {},
-      "oj-n-box": {},
-      "oj-timeline": {},
-      "oj-spark-chart": {},
-      "oj-data-grid": {},
-      "oj-popup": {},
-      "oj-select-many": {},
-      "oj-button": {
-        "attributes": {
-          "chroming": {
-            "type": "string"
-          },
-          "disabled": {
-            "type": "boolean"
-          },
-          "display": {
-            "type": "string"
-          },
-          "translations": {
-            "type": "object"
-          },
-          "on-click": {
-            "type": "function"
-          },
-          "id": {
-            "type": "string"
-          }
-        }
-      },
-      "oj-time-axis": {},
-      "oj-input-date-time": {},
-      "oj-file-picker": {},
-      "oj-led-gauge": {},
-      "oj-buttonset-many": {     
-        "attributes": {
-          "chroming": {
-            "type": "string"
-          },
-          "disabled": {
-            "type": "boolean"
-          },
-          "display": {
-            "type": "string"
-          },
-          "translations": {
-            "type": "object"
-          },
-          "focus-management": {
-            "type": "string"
-          },
-          "value": {
-            "type": "*"
-          }
-        }
-      },
-      "oj-progress-list": {},
-      "oj-date-picker": {},
-      "oj-progress": {},
-      "oj-collapsible": {},
-      "oj-picto-chart": {},
-      "oj-paging-control": {},
-      "oj-input-number": {
-        "attributes": {
-          "value": {}
-        }
-      },
-      "oj-switch": {
-        "attributes": {
-          "value": {
-            "type": "boolean"
-          }
-        }
-      },
-      "oj-text-area": {},
-      "oj-color-spectrum": {},
-      "oj-menu-button": {},
-      "oj-status-meter-gauge": {
-        "attributes": {
-          "thresholds": {},
-          "min": {},
-          "readonly": {},
-          "max": {},
-          "step": {},
-          "value": {}
-        }
-      },
-      "oj-toolbar": {
-        "attributes": {
-          "aria-label": {
-            "type": "string"
-          }
-        }
-      },
-      "oj-tree-view": {},
-      "oj-sunburst": {},
-      "oj-train": {},
-      "oj-row-expander": {},
-      "oj-treemap": {},
-      "oj-slider": {},
-      "oj-legend": {},
-      "oj-date-time-picker": {},
-      "oj-combobox-many": {},
-      "oj-tag-cloud": {},
-      "oj-rating-gauge": {},
-      "oj-accordion": {},
-      "oj-input-time": {},
-      "oj-label": {
-        "attributes": {
-          "id": {
-            "type": "string",
-            "required": true
-          },
-          "for": {},
-          "class": {}
-        }
-      },
-      "oj-list-view": {},
-      "oj-defer": {},
-      "oj-input-date": {},
-      "oj-menu": {},
-      "oj-gantt": {},
-      "oj-input-text": {
-        "attributes": {
-          "maxlength": {},
-          "id": {},
-          "placeholder": {},
-          "value": {}
-        }
-      },
-      "attributes": {},
-      "oj-combobox-one": {},
-      "oj-navigation-list": {},
-      "oj-tab-bar": {}
+      }
     },
-    "attributes": {
-      "slot": {
-        "context": "div"
-      },
-      "id": {
-        "type": "string"
+    "oj-buttonset-one": {     
+      "attributes": {
+        "chroming": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "focus-management": {
+          "type": "string"
+        },
+        "value": {
+          "type": "*"
+        }
+      }
+    },
+    "oj-color-palette": {},
+    "oj-masonry-layout": {},
+    "oj-optgroup": {},
+    "oj-switcher": {},
+    "oj-avatar": {      
+      "attributes": {
+        "initials": {
+          "type": "string"
+        },
+        "size": {
+          "type": "string"
+        },
+        "src": {
+          "type": "string"
+        }
+      }
+    },
+    "oj-indexer": {},
+    "oj-n-box": {},
+    "oj-timeline": {},
+    "oj-spark-chart": {},
+    "oj-data-grid": {},
+    "oj-popup": {},
+    "oj-select-many": {},
+    "oj-button": {
+      "attributes": {
+        "chroming": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "on-click": {
+          "type": "function"
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "oj-time-axis": {},
+    "oj-input-date-time": {},
+    "oj-file-picker": {},
+    "oj-led-gauge": {},
+    "oj-buttonset-many": {     
+      "attributes": {
+        "chroming": {
+          "type": "string"
+        },
+        "disabled": {
+          "type": "boolean"
+        },
+        "display": {
+          "type": "string"
+        },
+        "translations": {
+          "type": "object"
+        },
+        "focus-management": {
+          "type": "string"
+        },
+        "value": {
+          "type": "*"
+        }
+      }
+    },
+    "oj-progress-list": {},
+    "oj-date-picker": {},
+    "oj-progress": {},
+    "oj-collapsible": {},
+    "oj-picto-chart": {},
+    "oj-paging-control": {},
+    "oj-input-number": {
+      "attributes": {
+        "value": {}
+      }
+    },
+    "oj-switch": {
+      "attributes": {
+        "value": {
+          "type": "boolean"
+        }
+      }
+    },
+    "oj-text-area": {},
+    "oj-color-spectrum": {},
+    "oj-menu-button": {},
+    "oj-status-meter-gauge": {
+      "attributes": {
+        "thresholds": {},
+        "min": {},
+        "readonly": {},
+        "max": {},
+        "step": {},
+        "value": {}
+      }
+    },
+    "oj-toolbar": {
+      "attributes": {
+        "aria-label": {
+          "type": "string"
+        }
+      }
+    },
+    "oj-tree-view": {},
+    "oj-sunburst": {},
+    "oj-train": {},
+    "oj-row-expander": {},
+    "oj-treemap": {},
+    "oj-slider": {},
+    "oj-legend": {},
+    "oj-date-time-picker": {},
+    "oj-combobox-many": {},
+    "oj-tag-cloud": {},
+    "oj-rating-gauge": {},
+    "oj-accordion": {},
+    "oj-input-time": {},
+    "oj-label": {
+      "attributes": {
+        "id": {
+          "type": "string",
+          "required": true
+        },
+        "for": {},
+        "class": {}
       }
     },
     "oj-list-view": {},
@@ -829,6 +804,11 @@
         "value": {}
       }
     },
+    "oj-list-view": {},
+    "oj-defer": {},
+    "oj-input-date": {},
+    "oj-menu": {},
+    "oj-gantt": {},
     "oj-combobox-one": {},
     "oj-navigation-list": {},
     "oj-tab-bar": {}
@@ -840,4 +820,5 @@
     "id": {
       "type": "string"
     }
+  }
 }
