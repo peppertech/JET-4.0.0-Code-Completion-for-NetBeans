@@ -1,3 +1,14 @@
+# Superceded by recent Typescript Definition file release with JET v6.0.0
+
+This project will not be continued now that Type Definitions have been released for all of JET UI and Framework features.  To install JET types, run the following command from the root of your project:"
+
+npm install @types/oracle__oraclejet
+
+This only works with JET v6.0.0 and higher.
+
+
+
+
 # JET 4.0.0 Code Completion for NetBeans 8+
 
 With NetBeans currently in the middle of a transition to the 
